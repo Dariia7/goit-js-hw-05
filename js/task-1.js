@@ -1,32 +1,3 @@
-/*
-const filterArray = (numbers, value) => {
-  const filteredNumbers = [];
-
-  numbers.forEach((number) => {
-    if (number > value) {
-      filteredNumbers.push(number);
-    }
-  });
-
-    return filteredNumbers;
-    
-}
-console.log(filterArray([1, 2, 3, 4, 5], 3))
-*/
-
-/*
-const scores = [61, 19, 74, 35, 92, 56, 611, 195, 351];
-const ascendingScores = scores.toSorted();
-console.log(ascendingScores); // [19, 35, 56, 61, 74, 92]
-*/
-
-/* 1й варіант
-function getUserNames(users) { 
-    const usersNames = users.map((user) => user.name);
-    return usersNames;
-}
-*/
-
 
 const getUserNames = (users) => users.map((user) => user.name);
 
